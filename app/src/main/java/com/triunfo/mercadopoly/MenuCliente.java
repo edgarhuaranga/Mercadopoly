@@ -16,6 +16,7 @@ public class MenuCliente extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_cliente);
+        getSupportActionBar().hide();
         codigo = getIntent().getStringExtra("codigo");
         rol = getIntent().getStringExtra("rol");
 

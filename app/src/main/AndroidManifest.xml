@@ -21,7 +21,8 @@
         <activity android:name=".Perfil" />
         <activity android:name=".HistoricoExhibicion" />
         <activity android:name=".HistoricoCompras" />
-        <activity android:name=".Visita"></activity>
+        <activity android:name=".Visita" />
+        <activity android:name=".MedicionExhibicion"></activity>
     </application>
 
 </manifest>
