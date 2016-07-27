@@ -1,6 +1,7 @@
 package com.triunfo.mercadopoly;
 
 import android.content.DialogInterface;
+import android.media.MediaScannerConnection;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +11,9 @@ import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.io.File;
+import java.io.FileOutputStream;
 
 public class MedicionExhibicion extends AppCompatActivity {
     final int NUMERO_PRODUCTOS = 30;
@@ -23,11 +27,18 @@ public class MedicionExhibicion extends AppCompatActivity {
     CheckBox[] checkBoxesMotivo4;
     CheckBox[] checkBoxesMotivo5;
     CheckBox[] checkBoxesMotivo6;
+    Cliente cliente;
+    String codigo;
+    String rol;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_medicion_exhibicion);
+        codigo = getIntent().getStringExtra("codigo");
+        rol = getIntent().getStringExtra("rol");
+        cliente = new Cliente(codigo, getApplicationContext());
+
         textViewNombreProducto = new TextView[NUMERO_PRODUCTOS];
         radioButtonsExhibicionSi = new RadioButton[NUMERO_PRODUCTOS];
         radioButtonsExhibicionNo = new RadioButton[NUMERO_PRODUCTOS];
@@ -360,6 +371,13 @@ public class MedicionExhibicion extends AppCompatActivity {
         boolean checked = ((RadioButton)view).isChecked();
         if(checked){
             if(typeAnswer==1){
+                checkBoxesMotivo1[indexRow].setChecked(false);
+                checkBoxesMotivo2[indexRow].setChecked(false);
+                checkBoxesMotivo3[indexRow].setChecked(false);
+                checkBoxesMotivo4[indexRow].setChecked(false);
+                checkBoxesMotivo5[indexRow].setChecked(false);
+                checkBoxesMotivo6[indexRow].setChecked(false);
+
                 checkBoxesMotivo1[indexRow].setEnabled(false);
                 checkBoxesMotivo2[indexRow].setEnabled(false);
                 checkBoxesMotivo3[indexRow].setEnabled(false);
@@ -368,10 +386,20 @@ public class MedicionExhibicion extends AppCompatActivity {
                 checkBoxesMotivo6[indexRow].setEnabled(false);
             }
             else if(typeAnswer==2){
-
+                checkBoxesMotivo1[indexRow].setEnabled(true);
+                checkBoxesMotivo2[indexRow].setEnabled(true);
+                checkBoxesMotivo3[indexRow].setEnabled(true);
+                checkBoxesMotivo4[indexRow].setEnabled(true);
+                checkBoxesMotivo5[indexRow].setEnabled(true);
+                checkBoxesMotivo6[indexRow].setEnabled(true);
             }
             else if(typeAnswer==3){
-
+                checkBoxesMotivo1[indexRow].setEnabled(true);
+                checkBoxesMotivo2[indexRow].setEnabled(true);
+                checkBoxesMotivo3[indexRow].setEnabled(true);
+                checkBoxesMotivo4[indexRow].setEnabled(true);
+                checkBoxesMotivo5[indexRow].setEnabled(true);
+                checkBoxesMotivo6[indexRow].setEnabled(true);
             }
         }
         else{
@@ -411,16 +439,47 @@ public class MedicionExhibicion extends AppCompatActivity {
     }
 
     public void guardarVisita(View view){
+        String info="";
+        boolean grabar=false;
         for(int i=0;i<NUMERO_PRODUCTOS;i++){
             if(radioButtonsExhibicionSi[i].isChecked()){
-                String mess=radioButtonsExhibicionSi[i].getText().toString();
                 Log.d("checking",i+"_Si");
+                info+="100";
             }
             else if(radioButtonsExhibicionNo[i].isChecked()){
                 Log.d("checking",i+"_No");
+                info+="010";
+                //alerta para que cuando marque no o protisa, deba marcar al menos un motivo
+                if(!checkBoxesMotivo1[i].isChecked() && !checkBoxesMotivo2[i].isChecked() && !checkBoxesMotivo3[i].isChecked() &&
+                        !checkBoxesMotivo4[i].isChecked() && !checkBoxesMotivo5[i].isChecked() && !checkBoxesMotivo6[i].isChecked()){
+                    AlertDialog.Builder message = new AlertDialog.Builder(this);
+                    message.setTitle("Atencion")
+                            .setMessage("Debes marcar al menos un motivo por el que no existe producto "+textViewNombreProducto[i].getText())
+                            .setPositiveButton("Entendido", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+
+                                }
+                            }).create().show();
+                    break;
+                }
             }
             else if(radioButtonsExhibicionProtisa[i].isChecked()){
                 Log.d("checking",i+"_Protisa");
+                info+="001";
+                if(!checkBoxesMotivo1[i].isChecked() && !checkBoxesMotivo2[i].isChecked() && !checkBoxesMotivo3[i].isChecked() &&
+                        !checkBoxesMotivo4[i].isChecked() && !checkBoxesMotivo5[i].isChecked() && !checkBoxesMotivo6[i].isChecked()){
+                    AlertDialog.Builder message = new AlertDialog.Builder(this);
+                    message.setTitle("Atencion")
+                            .setMessage("Debes marcar al menos un motivo por el que no existe producto "+textViewNombreProducto[i].getText())
+                            .setPositiveButton("Entendido", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+
+                                }
+                            }).create().show();
+                    break;
+                }
             }
             else{
                 AlertDialog.Builder message = new AlertDialog.Builder(this);
@@ -434,8 +493,45 @@ public class MedicionExhibicion extends AppCompatActivity {
                 message.create().show();
                 break;
             }
-        }
-    }
 
+            if(checkBoxesMotivo1[i].isChecked()) info+="1";
+            else info+="0";
+
+            if(checkBoxesMotivo2[i].isChecked()) info+="1";
+            else info+="0";
+
+            if(checkBoxesMotivo3[i].isChecked()) info+="1";
+            else info+="0";
+
+            if(checkBoxesMotivo4[i].isChecked()) info+="1";
+            else info+="0";
+
+            if(checkBoxesMotivo5[i].isChecked()) info+="1";
+            else info+="0";
+
+            if(checkBoxesMotivo6[i].isChecked()) info+="1";
+            else info+="0";
+
+            info+=",";
+            if(i==NUMERO_PRODUCTOS-1) grabar=true;
+        }
+
+        if(grabar){
+            info+="\n";
+            try{
+                File storageDir = new File(cliente.getPath());
+                storageDir.mkdirs();
+                File file = new File(storageDir,"visita.txt");
+                FileOutputStream fos = new FileOutputStream(file, true);
+                fos.write(info.getBytes());
+                fos.close();
+                Toast.makeText(getApplicationContext(), "Informacion guardada", Toast.LENGTH_SHORT).show();
+                MediaScannerConnection.scanFile(this,new String[]{file.toString()},null,null);
+            } catch(Exception e){
+                e.printStackTrace();
+            }
+        }
+
+    }
 
 }
