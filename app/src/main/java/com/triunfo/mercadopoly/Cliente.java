@@ -141,4 +141,10 @@ public class Cliente {
         s += Environment.getExternalStorageDirectory() + "/MercadoPoly/"+meses[mes]+"/"+"Semana"+semanacampania+"/"+diaSemana+"/"+codigo+"/";
         return s;
     }
+
+    String getPathFoto(){
+        String pathCliente = this.getPath();
+        pathCliente += "Fotos/";
+        return pathCliente;
+    }
 }

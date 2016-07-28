@@ -530,8 +530,8 @@ public class MedicionExhibicion extends AppCompatActivity {
             } catch(Exception e){
                 e.printStackTrace();
             }
+            finish();
         }
-
     }
 
 }

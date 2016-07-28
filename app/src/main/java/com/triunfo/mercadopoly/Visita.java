@@ -22,4 +22,13 @@ public class Visita extends AppCompatActivity {
         intent.putExtra("rol",rol);
         startActivity(intent);
     }
+
+    public void goTomaFotos(View view){
+        Intent intent = new Intent(this, MedicionFotos.class);
+        intent.putExtra("codigo",codigo);
+        intent.putExtra("rol",rol);
+        startActivity(intent);
+    }
+
+
 }
