@@ -27,7 +27,10 @@
         <activity android:name=".HistoricoCompras" />
         <activity android:name=".Visita" />
         <activity android:name=".MedicionExhibicion" />
-        <activity android:name=".MedicionFotos"></activity>
+        <activity android:name=".MedicionFotos" />
+        <activity android:name=".VerificarFotos" />
+        <activity android:name=".FullSizeFoto" />
+        <activity android:name=".Competencia"></activity>
     </application>
 
 </manifest>

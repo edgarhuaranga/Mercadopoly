@@ -4,7 +4,9 @@ import android.content.Context;
 import android.os.Environment;
 import android.util.Log;
 
+import java.io.File;
 import java.util.Calendar;
+import java.util.Scanner;
 
 /**
  * Created by root on 21/07/16.
@@ -146,5 +148,19 @@ public class Cliente {
         String pathCliente = this.getPath();
         pathCliente += "Fotos/";
         return pathCliente;
+    }
+
+    String getComentarioFoto(int index){
+        try{
+            File file = new File(getPathFoto()+"comentarioFoto"+index+".txt");
+            Scanner scanner = new Scanner(file);
+            String comentario="";
+            while(scanner.hasNextLine()){
+                comentario = scanner.nextLine();
+            }
+            return comentario;
+        }catch (Exception e){
+            return "No hay comentario";
+        }
     }
 }

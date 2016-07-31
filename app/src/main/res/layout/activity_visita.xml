@@ -32,6 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_looks_3_black_24dp"
+            android:onClick="goVerificarFotos"
             android:text="Galeria fotografica"/>
 
         <Button
@@ -39,7 +40,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_looks_4_black_24dp"
+            android:onClick="goCompetencia"
             android:text="Competencia"/>
+
+        <Button
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="terminarVisita"
+            android:text="Terminar visita"/>
 
     </LinearLayout>
 

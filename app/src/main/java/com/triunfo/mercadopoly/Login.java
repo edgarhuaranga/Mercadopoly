@@ -1,7 +1,9 @@
 package com.triunfo.mercadopoly;
 
+import android.Manifest;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Build;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,12 +20,16 @@ public class Login extends AppCompatActivity {
     static public String USUARIO_LABEL="usuario";
     static public String CLAVE_LABEL="password";
     static public String ROL_LABEL="rol";
+    int code_request = 1234;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         getSupportActionBar().hide();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.CAMERA}, code_request);
+        }
         rol = "agente";
     }
 

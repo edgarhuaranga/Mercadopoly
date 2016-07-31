@@ -36,18 +36,26 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_centerHorizontal="true" />
             </RelativeLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="2">
+                android:layout_weight="2"
+                android:orientation="vertical">
                 <EditText
+                    android:id="@+id/editview_comentario1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:gravity="center_horizontal"
                     android:textSize="15dp"
                     android:hint="Comentario 01"/>
-            </RelativeLayout>
+                <Button
+                    android:id="@+id/button_grabarcomentario1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="guardarComentario"
+                    android:text="Grabar"/>
+            </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -75,18 +83,26 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_centerHorizontal="true" />
             </RelativeLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="2">
+                android:layout_weight="2"
+                android:orientation="vertical">
                 <EditText
+                    android:id="@+id/editview_comentario3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:gravity="center_horizontal"
                     android:textSize="15dp"
                     android:hint="Comentario 03"/>
-            </RelativeLayout>
+                <Button
+                    android:id="@+id/button_grabarcomentario3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="guardarComentario"
+                    android:text="Grabar"/>
+            </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -114,18 +130,26 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_centerHorizontal="true" />
             </RelativeLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="2">
+                android:layout_weight="2"
+                android:orientation="vertical">
                 <EditText
+                    android:id="@+id/editview_comentario5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:gravity="center_horizontal"
                     android:textSize="15dp"
                     android:hint="Comentario 05"/>
-            </RelativeLayout>
+                <Button
+                    android:id="@+id/button_grabarcomentario5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="guardarComentario"
+                    android:text="Grabar"/>
+            </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -153,18 +177,26 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_centerHorizontal="true" />
             </RelativeLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="2">
+                android:layout_weight="2"
+                android:orientation="vertical">
                 <EditText
+                    android:id="@+id/editview_comentario7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:gravity="center_horizontal"
                     android:textSize="15dp"
                     android:hint="Comentario 07"/>
-            </RelativeLayout>
+                <Button
+                    android:id="@+id/button_grabarcomentario7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="guardarComentario"
+                    android:text="Grabar"/>
+            </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -192,18 +224,26 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_centerHorizontal="true" />
             </RelativeLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="2">
+                android:layout_weight="2"
+                android:orientation="vertical">
                 <EditText
+                    android:id="@+id/editview_comentario9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:gravity="center_horizontal"
                     android:textSize="15dp"
                     android:hint="Comentario 09"/>
-            </RelativeLayout>
+                <Button
+                    android:id="@+id/button_grabarcomentario9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="guardarComentario"
+                    android:text="Grabar"/>
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
@@ -238,18 +278,26 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_centerHorizontal="true" />
             </RelativeLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="2">
+                android:layout_weight="2"
+                android:orientation="vertical">
                 <EditText
+                    android:id="@+id/editview_comentario2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:gravity="center_horizontal"
                     android:textSize="15dp"
                     android:hint="Comentario 02"/>
-            </RelativeLayout>
+                <Button
+                    android:id="@+id/button_grabarcomentario2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="guardarComentario"
+                    android:text="Grabar"/>
+            </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -277,18 +325,26 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_centerHorizontal="true" />
             </RelativeLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="2">
+                android:layout_weight="2"
+                android:orientation="vertical">
                 <EditText
+                    android:id="@+id/editview_comentario4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:gravity="center_horizontal"
                     android:textSize="15dp"
                     android:hint="Comentario 04"/>
-            </RelativeLayout>
+                <Button
+                    android:id="@+id/button_grabarcomentario4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="guardarComentario"
+                    android:text="Grabar"/>
+            </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -316,18 +372,26 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_centerHorizontal="true" />
             </RelativeLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="2">
+                android:layout_weight="2"
+                android:orientation="vertical">
                 <EditText
+                    android:id="@+id/editview_comentario6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:gravity="center_horizontal"
                     android:textSize="15dp"
                     android:hint="Comentario 06"/>
-            </RelativeLayout>
+                <Button
+                    android:id="@+id/button_grabarcomentario6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="guardarComentario"
+                    android:text="Grabar"/>
+            </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -355,18 +419,26 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_centerHorizontal="true" />
             </RelativeLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="2">
+                android:layout_weight="2"
+                android:orientation="vertical">
                 <EditText
+                    android:id="@+id/editview_comentario8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:gravity="center_horizontal"
                     android:textSize="15dp"
                     android:hint="Comentario 08"/>
-            </RelativeLayout>
+                <Button
+                    android:id="@+id/button_grabarcomentario8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="guardarComentario"
+                    android:text="Grabar"/>
+            </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -394,18 +466,26 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_centerHorizontal="true" />
             </RelativeLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="2">
+                android:layout_weight="2"
+                android:orientation="vertical">
                 <EditText
+                    android:id="@+id/editview_comentario10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:gravity="center_horizontal"
                     android:textSize="15dp"
                     android:hint="Comentario 10"/>
-            </RelativeLayout>
+                <Button
+                    android:id="@+id/button_grabarcomentario10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="guardarComentario"
+                    android:text="Grabar"/>
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
