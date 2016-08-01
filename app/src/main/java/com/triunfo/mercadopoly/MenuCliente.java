@@ -40,7 +40,7 @@ public class MenuCliente extends AppCompatActivity {
                 intent = new Intent(this, Visita.class);
                 break;
             case R.id.button_comentarios:
-                //intent = new Intent(this, Comentarios.class);
+                intent = new Intent(this, Comentarios.class);
                 break;
             case R.id.button_galeria:
                 //intent = new Intent(this, GridViewActivity.class);

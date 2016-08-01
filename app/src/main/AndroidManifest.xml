@@ -30,7 +30,8 @@
         <activity android:name=".MedicionFotos" />
         <activity android:name=".VerificarFotos" />
         <activity android:name=".FullSizeFoto" />
-        <activity android:name=".Competencia"></activity>
+        <activity android:name=".Competencia" />
+        <activity android:name=".Comentarios"></activity>
     </application>
 
 </manifest>

@@ -140,7 +140,7 @@ public class Cliente {
                 diaSemana="ErrorSemana";
                 break;
         }
-        s += Environment.getExternalStorageDirectory() + "/MercadoPoly/"+meses[mes]+"/"+"Semana"+semanacampania+"/"+diaSemana+"/"+codigo+"/";
+        s += Environment.getExternalStorageDirectory() + "/MercadoTon/"+meses[mes]+"/"+"Semana"+semanacampania+"/"+diaSemana+"/"+codigo+"/";
         return s;
     }
 
@@ -148,6 +148,12 @@ public class Cliente {
         String pathCliente = this.getPath();
         pathCliente += "Fotos/";
         return pathCliente;
+    }
+
+    String getPathCompetencia(){
+        String pathCompetencia = this.getPath();
+        pathCompetencia += "Competencia/";
+        return pathCompetencia;
     }
 
     String getComentarioFoto(int index){
