@@ -31,7 +31,10 @@
         <activity android:name=".VerificarFotos" />
         <activity android:name=".FullSizeFoto" />
         <activity android:name=".Competencia" />
-        <activity android:name=".Comentarios"></activity>
+        <activity android:name=".Comentarios" />
+        <activity android:name=".Galeria" />
+        <activity android:name=".GaleriaSemanal" />
+        <activity android:name=".FullScreenViewActivity"></activity>
     </application>
 
 </manifest>

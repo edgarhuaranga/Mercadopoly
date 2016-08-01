@@ -11,6 +11,12 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.bumptech.glide.signature.StringSignature;
+
+import java.io.File;
+
 public class FullSizeFoto extends AppCompatActivity implements View.OnTouchListener{
 
     private static final String TAG = "Touch";
@@ -49,7 +55,14 @@ public class FullSizeFoto extends AppCompatActivity implements View.OnTouchListe
         indx = getIntent().getIntExtra("index",-1);
         cliente = new Cliente(codigo,getApplicationContext());
         Bitmap bitmap = MedicionFotos.getSampleBitmapFromFile(cliente.getPathFoto()+"foto"+indx+".jpg",200,200);
-        fotoFull.setImageBitmap(bitmap);
+        Glide.clear(fotoFull);
+        Glide.with(this)
+                .load(new File(cliente.getPathFoto()+"foto"+indx+".jpg"))
+                .fitCenter()
+                .skipMemoryCache(true)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .into(fotoFull);
+        //fotoFull.setImageBitmap(bitmap);
     }
 
     @Override

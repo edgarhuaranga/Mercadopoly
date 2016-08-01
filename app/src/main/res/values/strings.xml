@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Mercadopoly</string>
+    <string name="app_name">Mercaton</string>
     <string-array name="loginArray">
         <item>limaage01</item>
         <item>mercadopolylimaage01</item>

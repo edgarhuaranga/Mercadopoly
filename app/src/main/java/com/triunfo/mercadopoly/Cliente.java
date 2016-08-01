@@ -5,6 +5,7 @@ import android.os.Environment;
 import android.util.Log;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Scanner;
 
@@ -140,7 +141,9 @@ public class Cliente {
                 diaSemana="ErrorSemana";
                 break;
         }
-        s += Environment.getExternalStorageDirectory() + "/MercadoTon/"+meses[mes]+"/"+"Semana"+semanacampania+"/"+diaSemana+"/"+codigo+"/";
+        s += Environment.getExternalStorageDirectory() + "/MercaTon/"+meses[mes]+"/"+"Semana"+semanacampania+"/"+diaSemana+"/"+codigo+"/";
+        //s += "/sdcard1" + "/MercadoTon/"+meses[mes]+"/"+"Semana"+semanacampania+"/"+diaSemana+"/"+codigo+"/";
+
         return s;
     }
 
@@ -168,5 +171,54 @@ public class Cliente {
         }catch (Exception e){
             return "No hay comentario";
         }
+    }
+
+    ArrayList<String> getPathPhotos(int numsemana){
+        ArrayList<String> res = new ArrayList<>();
+        File mercaton = new File(Environment.getExternalStorageDirectory()+"/MercaTon/");
+        if(mercaton.exists()){
+            File[] meses = mercaton.listFiles();
+            for(int i=0; i<meses.length; i++){
+                File mes = meses[i];
+                if(mes.isDirectory()){
+                    File[] semanas = mes.listFiles();
+                    for(int j=0; j<semanas.length; j++){
+                        File semana = semanas[j];
+                        Log.d("semanapath",semana.getAbsolutePath());
+                        Log.d("semanapath",semana.getName().substring(6));
+                        int semnum = Integer.parseInt(semana.getName().substring(6));
+                        if(semnum==numsemana){
+
+                            if(semana.isDirectory()){
+                                File[] dias = semana.listFiles();
+                                for(int k=0; k<dias.length; k++){
+                                    File dia = dias[k];
+                                    if(dia.isDirectory()){
+                                        File[] visitados = dia.listFiles();
+                                        for(int m=0; m<visitados.length; m++){
+                                            if(visitados[m].getName().equalsIgnoreCase(codigo)){
+                                                //res.add(visitados[m].getAbsolutePath()+"/Fotos/");
+                                                File fotoDir = new File(visitados[m].getPath()+"/Fotos/");
+                                                if(fotoDir.exists()){
+                                                    File[] fotosyComentarios = fotoDir.listFiles();
+                                                    for(int ii=0; ii<fotosyComentarios.length;ii++){
+                                                        if(fotosyComentarios[ii].isFile()){
+                                                            if(fotosyComentarios[ii].getName().contains(".jpg")){
+                                                                res.add(fotosyComentarios[ii].getAbsolutePath());
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        return res;
     }
 }

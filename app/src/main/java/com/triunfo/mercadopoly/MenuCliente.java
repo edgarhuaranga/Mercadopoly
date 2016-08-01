@@ -7,10 +7,13 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.File;
+
 public class MenuCliente extends AppCompatActivity {
 
     String codigo;
     String rol;
+    Cliente clienteC;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +22,15 @@ public class MenuCliente extends AppCompatActivity {
         getSupportActionBar().hide();
         codigo = getIntent().getStringExtra("codigo");
         rol = getIntent().getStringExtra("rol");
-
+        clienteC = new Cliente(codigo, getApplicationContext());
+        File dir = new File(clienteC.getPath());
+        if(!dir.exists()){
+            dir.mkdirs();
+        }
+        File dirfotos = new File(clienteC.getPath());
+        if(!dirfotos.exists()){
+            dirfotos.mkdirs();
+        }
         TextView cliente = (TextView)findViewById(R.id.textview_cliente);
         cliente.setText((new Cliente(codigo,getApplicationContext())).nombre);
     }
@@ -43,7 +54,7 @@ public class MenuCliente extends AppCompatActivity {
                 intent = new Intent(this, Comentarios.class);
                 break;
             case R.id.button_galeria:
-                //intent = new Intent(this, GridViewActivity.class);
+                intent = new Intent(this, Galeria.class);
                 break;
             case R.id.button_finalizar:
                 finish();
