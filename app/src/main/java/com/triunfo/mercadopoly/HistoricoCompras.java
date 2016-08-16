@@ -15,11 +15,16 @@ public class HistoricoCompras extends AppCompatActivity {
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
+    String codigo;
+    String rol;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_historico_compras);
+
+        codigo = getIntent().getStringExtra("codigo");
+        rol = getIntent().getStringExtra("rol");
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(viewPager);
@@ -30,12 +35,12 @@ public class HistoricoCompras extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerComprasAdapter adapter = new ViewPagerComprasAdapter(getSupportFragmentManager());
-        adapter.addFragment(ComprasMesFragment.newInstance("LI0001","Agosto"), "Agosto");
-        adapter.addFragment(ComprasMesFragment.newInstance("LI0001","Setiembre"), "Setiembre");
-        adapter.addFragment(ComprasMesFragment.newInstance("LI0001","Octubre"), "Octubre");
-        adapter.addFragment(ComprasMesFragment.newInstance("LI0001","Noviembre"), "Noviembre");
-        adapter.addFragment(ComprasMesFragment.newInstance("LI0001","Diciembre"), "Diciembre");
-        adapter.addFragment(ComprasMesFragment.newInstance("LI0001","Enero"), "Enero");
+        adapter.addFragment(ComprasMesFragment.newInstance(codigo,"Agosto"), "Agosto");
+        adapter.addFragment(ComprasMesFragment.newInstance(codigo,"Setiembre"), "Setiembre");
+        adapter.addFragment(ComprasMesFragment.newInstance(codigo,"Octubre"), "Octubre");
+        adapter.addFragment(ComprasMesFragment.newInstance(codigo,"Noviembre"), "Noviembre");
+        adapter.addFragment(ComprasMesFragment.newInstance(codigo,"Diciembre"), "Diciembre");
+        adapter.addFragment(ComprasMesFragment.newInstance(codigo,"Enero"), "Enero");
         viewPager.setAdapter(adapter);
         //TODO obtener lista de nombres participantes por cliente
         //TODO obtener valor de cada compra

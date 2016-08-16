@@ -8,15 +8,18 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.bumptech.glide.Glide;
 
 import java.io.File;
 import java.io.FileOutputStream;
 
 public class MedicionExhibicion extends AppCompatActivity {
-    final int NUMERO_PRODUCTOS = 30;
+    final int NUMERO_PRODUCTOS = 40;
     TextView[] textViewNombreProducto;
     RadioButton[] radioButtonsExhibicionSi;
     RadioButton[] radioButtonsExhibicionNo;
@@ -50,6 +53,91 @@ public class MedicionExhibicion extends AppCompatActivity {
         checkBoxesMotivo5 = new CheckBox[NUMERO_PRODUCTOS];
         checkBoxesMotivo6 = new CheckBox[NUMERO_PRODUCTOS];
         setupViews();
+        setupIcons();
+    }
+
+    private void setupIcons() {
+        ImageView[] iconos = new ImageView[40];
+        iconos[0] = (ImageView) findViewById(R.id.ic_produc_00);
+        iconos[1] = (ImageView) findViewById(R.id.ic_produc_01);
+        iconos[2] = (ImageView) findViewById(R.id.ic_produc_02);
+        iconos[3] = (ImageView) findViewById(R.id.ic_produc_03);
+        iconos[4] = (ImageView) findViewById(R.id.ic_produc_04);
+        iconos[5] = (ImageView) findViewById(R.id.ic_produc_05);
+        iconos[6] = (ImageView) findViewById(R.id.ic_produc_06);
+        iconos[7] = (ImageView) findViewById(R.id.ic_produc_07);
+        iconos[8] = (ImageView) findViewById(R.id.ic_produc_08);
+        iconos[9] = (ImageView) findViewById(R.id.ic_produc_09);
+        iconos[10] = (ImageView) findViewById(R.id.ic_produc_10);
+        iconos[11] = (ImageView) findViewById(R.id.ic_produc_11);
+        iconos[12] = (ImageView) findViewById(R.id.ic_produc_12);
+        iconos[13] = (ImageView) findViewById(R.id.ic_produc_13);
+        iconos[14] = (ImageView) findViewById(R.id.ic_produc_14);
+        iconos[15] = (ImageView) findViewById(R.id.ic_produc_15);
+        iconos[16] = (ImageView) findViewById(R.id.ic_produc_16);
+        iconos[17] = (ImageView) findViewById(R.id.ic_produc_17);
+        iconos[18] = (ImageView) findViewById(R.id.ic_produc_18);
+        iconos[19] = (ImageView) findViewById(R.id.ic_produc_19);
+        iconos[20] = (ImageView) findViewById(R.id.ic_produc_20);
+        iconos[21] = (ImageView) findViewById(R.id.ic_produc_21);
+        iconos[22] = (ImageView) findViewById(R.id.ic_produc_22);
+        iconos[23] = (ImageView) findViewById(R.id.ic_produc_23);
+        iconos[24] = (ImageView) findViewById(R.id.ic_produc_24);
+        iconos[25] = (ImageView) findViewById(R.id.ic_produc_25);
+        iconos[26] = (ImageView) findViewById(R.id.ic_produc_26);
+        iconos[27] = (ImageView) findViewById(R.id.ic_produc_27);
+        iconos[28] = (ImageView) findViewById(R.id.ic_produc_28);
+        iconos[29] = (ImageView) findViewById(R.id.ic_produc_29);
+        iconos[30] = (ImageView) findViewById(R.id.ic_produc_30);
+        iconos[31] = (ImageView) findViewById(R.id.ic_produc_31);
+        iconos[32] = (ImageView) findViewById(R.id.ic_produc_32);
+        iconos[33] = (ImageView) findViewById(R.id.ic_produc_33);
+        iconos[34] = (ImageView) findViewById(R.id.ic_produc_34);
+        iconos[35] = (ImageView) findViewById(R.id.ic_produc_35);
+        iconos[36] = (ImageView) findViewById(R.id.ic_produc_36);
+        iconos[37] = (ImageView) findViewById(R.id.ic_produc_37);
+        iconos[38] = (ImageView) findViewById(R.id.ic_produc_38);
+        iconos[39] = (ImageView) findViewById(R.id.ic_produc_39);
+
+        Glide.with(this).load(R.drawable.ic_prod_00).centerCrop().into(iconos[0]);
+        Glide.with(this).load(R.drawable.ic_prod_01).centerCrop().into(iconos[1]);
+        Glide.with(this).load(R.drawable.ic_prod_02).centerCrop().into(iconos[2]);
+        Glide.with(this).load(R.drawable.ic_prod_03).centerCrop().into(iconos[3]);
+        Glide.with(this).load(R.drawable.ic_prod_04).centerCrop().into(iconos[4]);
+        Glide.with(this).load(R.drawable.ic_prod_05).centerCrop().into(iconos[5]);
+        Glide.with(this).load(R.drawable.ic_prod_06).centerCrop().into(iconos[6]);
+        Glide.with(this).load(R.drawable.ic_prod_07).centerCrop().into(iconos[7]);
+        Glide.with(this).load(R.drawable.ic_prod_08).centerCrop().into(iconos[8]);
+        Glide.with(this).load(R.drawable.ic_prod_09).centerCrop().into(iconos[9]);
+        Glide.with(this).load(R.drawable.ic_prod_10).centerCrop().into(iconos[10]);
+        Glide.with(this).load(R.drawable.ic_prod_11).centerCrop().into(iconos[11]);
+        Glide.with(this).load(R.drawable.ic_prod_12).centerCrop().into(iconos[12]);
+        Glide.with(this).load(R.drawable.ic_prod_13).centerCrop().into(iconos[13]);
+        Glide.with(this).load(R.drawable.ic_prod_14).centerCrop().into(iconos[14]);
+        Glide.with(this).load(R.drawable.ic_prod_15).centerCrop().into(iconos[15]);
+        Glide.with(this).load(R.drawable.ic_prod_16).centerCrop().into(iconos[16]);
+        Glide.with(this).load(R.drawable.ic_prod_17).centerCrop().into(iconos[17]);
+        Glide.with(this).load(R.drawable.ic_prod_18).centerCrop().into(iconos[18]);
+        Glide.with(this).load(R.drawable.ic_prod_19).centerCrop().into(iconos[19]);
+        Glide.with(this).load(R.drawable.ic_prod_20).centerCrop().into(iconos[20]);
+        Glide.with(this).load(R.drawable.ic_prod_21).centerCrop().into(iconos[21]);
+        Glide.with(this).load(R.drawable.ic_prod_22).centerCrop().into(iconos[22]);
+        Glide.with(this).load(R.drawable.ic_prod_23).centerCrop().into(iconos[23]);
+        Glide.with(this).load(R.drawable.ic_prod_24).centerCrop().into(iconos[24]);
+        Glide.with(this).load(R.drawable.ic_prod_25).centerCrop().into(iconos[25]);
+        Glide.with(this).load(R.drawable.ic_prod_26).centerCrop().into(iconos[26]);
+        Glide.with(this).load(R.drawable.ic_prod_27).centerCrop().into(iconos[27]);
+        Glide.with(this).load(R.drawable.ic_prod_28).centerCrop().into(iconos[28]);
+        Glide.with(this).load(R.drawable.ic_prod_29).centerCrop().into(iconos[29]);
+        Glide.with(this).load(R.drawable.ic_prod_30).centerCrop().into(iconos[30]);
+        Glide.with(this).load(R.drawable.ic_prod_31).centerCrop().into(iconos[31]);
+        Glide.with(this).load(R.drawable.ic_prod_32).centerCrop().into(iconos[32]);
+        Glide.with(this).load(R.drawable.ic_prod_33).centerCrop().into(iconos[33]);
+        Glide.with(this).load(R.drawable.ic_prod_34).centerCrop().into(iconos[34]);
+        Glide.with(this).load(R.drawable.ic_prod_35).centerCrop().into(iconos[35]);
+        Glide.with(this).load(R.drawable.ic_prod_36).centerCrop().into(iconos[36]);
+        Glide.with(this).load(R.drawable.ic_prod_37).centerCrop().into(iconos[37]);
+
     }
 
     public void setupViews(){
@@ -83,6 +171,16 @@ public class MedicionExhibicion extends AppCompatActivity {
         textViewNombreProducto[27] = (TextView) findViewById(R.id.textview_p27);
         textViewNombreProducto[28] = (TextView) findViewById(R.id.textview_p28);
         textViewNombreProducto[29] = (TextView) findViewById(R.id.textview_p29);
+        textViewNombreProducto[30] = (TextView) findViewById(R.id.textview_p30);
+        textViewNombreProducto[31] = (TextView) findViewById(R.id.textview_p31);
+        textViewNombreProducto[32] = (TextView) findViewById(R.id.textview_p32);
+        textViewNombreProducto[33] = (TextView) findViewById(R.id.textview_p33);
+        textViewNombreProducto[34] = (TextView) findViewById(R.id.textview_p34);
+        textViewNombreProducto[35] = (TextView) findViewById(R.id.textview_p35);
+        textViewNombreProducto[36] = (TextView) findViewById(R.id.textview_p36);
+        textViewNombreProducto[37] = (TextView) findViewById(R.id.textview_p37);
+        textViewNombreProducto[38] = (TextView) findViewById(R.id.textview_p38);
+        textViewNombreProducto[39] = (TextView) findViewById(R.id.textview_p39);
 
 
         radioButtonsExhibicionSi[0]=(RadioButton) findViewById(R.id.radiobutton_p0_si);
@@ -115,6 +213,16 @@ public class MedicionExhibicion extends AppCompatActivity {
         radioButtonsExhibicionSi[27]=(RadioButton) findViewById(R.id.radiobutton_p27_si);
         radioButtonsExhibicionSi[28]=(RadioButton) findViewById(R.id.radiobutton_p28_si);
         radioButtonsExhibicionSi[29]=(RadioButton) findViewById(R.id.radiobutton_p29_si);
+        radioButtonsExhibicionSi[30]=(RadioButton) findViewById(R.id.radiobutton_p30_si);
+        radioButtonsExhibicionSi[31]=(RadioButton) findViewById(R.id.radiobutton_p31_si);
+        radioButtonsExhibicionSi[32]=(RadioButton) findViewById(R.id.radiobutton_p32_si);
+        radioButtonsExhibicionSi[33]=(RadioButton) findViewById(R.id.radiobutton_p33_si);
+        radioButtonsExhibicionSi[34]=(RadioButton) findViewById(R.id.radiobutton_p34_si);
+        radioButtonsExhibicionSi[35]=(RadioButton) findViewById(R.id.radiobutton_p35_si);
+        radioButtonsExhibicionSi[36]=(RadioButton) findViewById(R.id.radiobutton_p36_si);
+        radioButtonsExhibicionSi[37]=(RadioButton) findViewById(R.id.radiobutton_p37_si);
+        radioButtonsExhibicionSi[38]=(RadioButton) findViewById(R.id.radiobutton_p38_si);
+        radioButtonsExhibicionSi[39]=(RadioButton) findViewById(R.id.radiobutton_p39_si);
 
         radioButtonsExhibicionNo[0]=(RadioButton) findViewById(R.id.radiobutton_p0_no);
         radioButtonsExhibicionNo[1]=(RadioButton) findViewById(R.id.radiobutton_p1_no);
@@ -146,6 +254,16 @@ public class MedicionExhibicion extends AppCompatActivity {
         radioButtonsExhibicionNo[27]=(RadioButton) findViewById(R.id.radiobutton_p27_no);
         radioButtonsExhibicionNo[28]=(RadioButton) findViewById(R.id.radiobutton_p28_no);
         radioButtonsExhibicionNo[29]=(RadioButton) findViewById(R.id.radiobutton_p29_no);
+        radioButtonsExhibicionNo[30]=(RadioButton) findViewById(R.id.radiobutton_p30_no);
+        radioButtonsExhibicionNo[31]=(RadioButton) findViewById(R.id.radiobutton_p31_no);
+        radioButtonsExhibicionNo[32]=(RadioButton) findViewById(R.id.radiobutton_p32_no);
+        radioButtonsExhibicionNo[33]=(RadioButton) findViewById(R.id.radiobutton_p33_no);
+        radioButtonsExhibicionNo[34]=(RadioButton) findViewById(R.id.radiobutton_p34_no);
+        radioButtonsExhibicionNo[35]=(RadioButton) findViewById(R.id.radiobutton_p35_no);
+        radioButtonsExhibicionNo[36]=(RadioButton) findViewById(R.id.radiobutton_p36_no);
+        radioButtonsExhibicionNo[37]=(RadioButton) findViewById(R.id.radiobutton_p37_no);
+        radioButtonsExhibicionNo[38]=(RadioButton) findViewById(R.id.radiobutton_p38_no);
+        radioButtonsExhibicionNo[39]=(RadioButton) findViewById(R.id.radiobutton_p39_no);
 
         radioButtonsExhibicionProtisa[0]=(RadioButton) findViewById(R.id.radiobutton_p0_protisa);
         radioButtonsExhibicionProtisa[1]=(RadioButton) findViewById(R.id.radiobutton_p1_protisa);
@@ -177,6 +295,16 @@ public class MedicionExhibicion extends AppCompatActivity {
         radioButtonsExhibicionProtisa[27]=(RadioButton) findViewById(R.id.radiobutton_p27_protisa);
         radioButtonsExhibicionProtisa[28]=(RadioButton) findViewById(R.id.radiobutton_p28_protisa);
         radioButtonsExhibicionProtisa[29]=(RadioButton) findViewById(R.id.radiobutton_p29_protisa);
+        radioButtonsExhibicionProtisa[30]=(RadioButton) findViewById(R.id.radiobutton_p30_protisa);
+        radioButtonsExhibicionProtisa[31]=(RadioButton) findViewById(R.id.radiobutton_p31_protisa);
+        radioButtonsExhibicionProtisa[32]=(RadioButton) findViewById(R.id.radiobutton_p32_protisa);
+        radioButtonsExhibicionProtisa[33]=(RadioButton) findViewById(R.id.radiobutton_p33_protisa);
+        radioButtonsExhibicionProtisa[34]=(RadioButton) findViewById(R.id.radiobutton_p34_protisa);
+        radioButtonsExhibicionProtisa[35]=(RadioButton) findViewById(R.id.radiobutton_p35_protisa);
+        radioButtonsExhibicionProtisa[36]=(RadioButton) findViewById(R.id.radiobutton_p36_protisa);
+        radioButtonsExhibicionProtisa[37]=(RadioButton) findViewById(R.id.radiobutton_p37_protisa);
+        radioButtonsExhibicionProtisa[38]=(RadioButton) findViewById(R.id.radiobutton_p38_protisa);
+        radioButtonsExhibicionProtisa[39]=(RadioButton) findViewById(R.id.radiobutton_p39_protisa);
 
         checkBoxesMotivo1[0] = (CheckBox) findViewById(R.id.checkbox_p0_opt01);
         checkBoxesMotivo1[1] = (CheckBox) findViewById(R.id.checkbox_p1_opt01);
@@ -208,6 +336,16 @@ public class MedicionExhibicion extends AppCompatActivity {
         checkBoxesMotivo1[27] = (CheckBox) findViewById(R.id.checkbox_p27_opt01);
         checkBoxesMotivo1[28] = (CheckBox) findViewById(R.id.checkbox_p28_opt01);
         checkBoxesMotivo1[29] = (CheckBox) findViewById(R.id.checkbox_p29_opt01);
+        checkBoxesMotivo1[30] = (CheckBox) findViewById(R.id.checkbox_p30_opt01);
+        checkBoxesMotivo1[31] = (CheckBox) findViewById(R.id.checkbox_p31_opt01);
+        checkBoxesMotivo1[32] = (CheckBox) findViewById(R.id.checkbox_p32_opt01);
+        checkBoxesMotivo1[33] = (CheckBox) findViewById(R.id.checkbox_p33_opt01);
+        checkBoxesMotivo1[34] = (CheckBox) findViewById(R.id.checkbox_p34_opt01);
+        checkBoxesMotivo1[35] = (CheckBox) findViewById(R.id.checkbox_p35_opt01);
+        checkBoxesMotivo1[36] = (CheckBox) findViewById(R.id.checkbox_p36_opt01);
+        checkBoxesMotivo1[37] = (CheckBox) findViewById(R.id.checkbox_p37_opt01);
+        checkBoxesMotivo1[38] = (CheckBox) findViewById(R.id.checkbox_p38_opt01);
+        checkBoxesMotivo1[39] = (CheckBox) findViewById(R.id.checkbox_p39_opt01);
 
         checkBoxesMotivo2[0] = (CheckBox) findViewById(R.id.checkbox_p0_opt02);
         checkBoxesMotivo2[1] = (CheckBox) findViewById(R.id.checkbox_p1_opt02);
@@ -239,6 +377,17 @@ public class MedicionExhibicion extends AppCompatActivity {
         checkBoxesMotivo2[27] = (CheckBox) findViewById(R.id.checkbox_p27_opt02);
         checkBoxesMotivo2[28] = (CheckBox) findViewById(R.id.checkbox_p28_opt02);
         checkBoxesMotivo2[29] = (CheckBox) findViewById(R.id.checkbox_p29_opt02);
+        checkBoxesMotivo2[30] = (CheckBox) findViewById(R.id.checkbox_p30_opt02);
+        checkBoxesMotivo2[31] = (CheckBox) findViewById(R.id.checkbox_p31_opt02);
+        checkBoxesMotivo2[32] = (CheckBox) findViewById(R.id.checkbox_p32_opt02);
+        checkBoxesMotivo2[33] = (CheckBox) findViewById(R.id.checkbox_p33_opt02);
+        checkBoxesMotivo2[34] = (CheckBox) findViewById(R.id.checkbox_p34_opt02);
+        checkBoxesMotivo2[35] = (CheckBox) findViewById(R.id.checkbox_p35_opt02);
+        checkBoxesMotivo2[36] = (CheckBox) findViewById(R.id.checkbox_p36_opt02);
+        checkBoxesMotivo2[37] = (CheckBox) findViewById(R.id.checkbox_p37_opt02);
+        checkBoxesMotivo2[38] = (CheckBox) findViewById(R.id.checkbox_p38_opt02);
+        checkBoxesMotivo2[39] = (CheckBox) findViewById(R.id.checkbox_p39_opt02);
+
 
         checkBoxesMotivo3[0] = (CheckBox) findViewById(R.id.checkbox_p0_opt03);
         checkBoxesMotivo3[1] = (CheckBox) findViewById(R.id.checkbox_p1_opt03);
@@ -270,6 +419,16 @@ public class MedicionExhibicion extends AppCompatActivity {
         checkBoxesMotivo3[27] = (CheckBox) findViewById(R.id.checkbox_p27_opt03);
         checkBoxesMotivo3[28] = (CheckBox) findViewById(R.id.checkbox_p28_opt03);
         checkBoxesMotivo3[29] = (CheckBox) findViewById(R.id.checkbox_p29_opt03);
+        checkBoxesMotivo3[30] = (CheckBox) findViewById(R.id.checkbox_p30_opt03);
+        checkBoxesMotivo3[31] = (CheckBox) findViewById(R.id.checkbox_p31_opt03);
+        checkBoxesMotivo3[32] = (CheckBox) findViewById(R.id.checkbox_p32_opt03);
+        checkBoxesMotivo3[33] = (CheckBox) findViewById(R.id.checkbox_p33_opt03);
+        checkBoxesMotivo3[34] = (CheckBox) findViewById(R.id.checkbox_p34_opt03);
+        checkBoxesMotivo3[35] = (CheckBox) findViewById(R.id.checkbox_p35_opt03);
+        checkBoxesMotivo3[36] = (CheckBox) findViewById(R.id.checkbox_p36_opt03);
+        checkBoxesMotivo3[37] = (CheckBox) findViewById(R.id.checkbox_p37_opt03);
+        checkBoxesMotivo3[38] = (CheckBox) findViewById(R.id.checkbox_p38_opt03);
+        checkBoxesMotivo3[39] = (CheckBox) findViewById(R.id.checkbox_p39_opt03);
 
         checkBoxesMotivo4[0] = (CheckBox) findViewById(R.id.checkbox_p0_opt04);
         checkBoxesMotivo4[1] = (CheckBox) findViewById(R.id.checkbox_p1_opt04);
@@ -301,6 +460,16 @@ public class MedicionExhibicion extends AppCompatActivity {
         checkBoxesMotivo4[27] = (CheckBox) findViewById(R.id.checkbox_p27_opt04);
         checkBoxesMotivo4[28] = (CheckBox) findViewById(R.id.checkbox_p28_opt04);
         checkBoxesMotivo4[29] = (CheckBox) findViewById(R.id.checkbox_p29_opt04);
+        checkBoxesMotivo4[30] = (CheckBox) findViewById(R.id.checkbox_p30_opt04);
+        checkBoxesMotivo4[31] = (CheckBox) findViewById(R.id.checkbox_p31_opt04);
+        checkBoxesMotivo4[32] = (CheckBox) findViewById(R.id.checkbox_p32_opt04);
+        checkBoxesMotivo4[33] = (CheckBox) findViewById(R.id.checkbox_p33_opt04);
+        checkBoxesMotivo4[34] = (CheckBox) findViewById(R.id.checkbox_p34_opt04);
+        checkBoxesMotivo4[35] = (CheckBox) findViewById(R.id.checkbox_p35_opt04);
+        checkBoxesMotivo4[36] = (CheckBox) findViewById(R.id.checkbox_p36_opt04);
+        checkBoxesMotivo4[37] = (CheckBox) findViewById(R.id.checkbox_p37_opt04);
+        checkBoxesMotivo4[38] = (CheckBox) findViewById(R.id.checkbox_p38_opt04);
+        checkBoxesMotivo4[39] = (CheckBox) findViewById(R.id.checkbox_p39_opt04);
 
         checkBoxesMotivo5[0] = (CheckBox) findViewById(R.id.checkbox_p0_opt05);
         checkBoxesMotivo5[1] = (CheckBox) findViewById(R.id.checkbox_p1_opt05);
@@ -332,6 +501,16 @@ public class MedicionExhibicion extends AppCompatActivity {
         checkBoxesMotivo5[27] = (CheckBox) findViewById(R.id.checkbox_p27_opt05);
         checkBoxesMotivo5[28] = (CheckBox) findViewById(R.id.checkbox_p28_opt05);
         checkBoxesMotivo5[29] = (CheckBox) findViewById(R.id.checkbox_p29_opt05);
+        checkBoxesMotivo5[30] = (CheckBox) findViewById(R.id.checkbox_p30_opt05);
+        checkBoxesMotivo5[31] = (CheckBox) findViewById(R.id.checkbox_p31_opt05);
+        checkBoxesMotivo5[32] = (CheckBox) findViewById(R.id.checkbox_p32_opt05);
+        checkBoxesMotivo5[33] = (CheckBox) findViewById(R.id.checkbox_p33_opt05);
+        checkBoxesMotivo5[34] = (CheckBox) findViewById(R.id.checkbox_p34_opt05);
+        checkBoxesMotivo5[35] = (CheckBox) findViewById(R.id.checkbox_p35_opt05);
+        checkBoxesMotivo5[36] = (CheckBox) findViewById(R.id.checkbox_p36_opt05);
+        checkBoxesMotivo5[37] = (CheckBox) findViewById(R.id.checkbox_p37_opt05);
+        checkBoxesMotivo5[38] = (CheckBox) findViewById(R.id.checkbox_p38_opt05);
+        checkBoxesMotivo5[39] = (CheckBox) findViewById(R.id.checkbox_p39_opt05);
 
         checkBoxesMotivo6[0] = (CheckBox) findViewById(R.id.checkbox_p0_opt06);
         checkBoxesMotivo6[1] = (CheckBox) findViewById(R.id.checkbox_p1_opt06);
@@ -363,6 +542,16 @@ public class MedicionExhibicion extends AppCompatActivity {
         checkBoxesMotivo6[27] = (CheckBox) findViewById(R.id.checkbox_p27_opt06);
         checkBoxesMotivo6[28] = (CheckBox) findViewById(R.id.checkbox_p28_opt06);
         checkBoxesMotivo6[29] = (CheckBox) findViewById(R.id.checkbox_p29_opt06);
+        checkBoxesMotivo6[30] = (CheckBox) findViewById(R.id.checkbox_p30_opt06);
+        checkBoxesMotivo6[31] = (CheckBox) findViewById(R.id.checkbox_p31_opt06);
+        checkBoxesMotivo6[32] = (CheckBox) findViewById(R.id.checkbox_p32_opt06);
+        checkBoxesMotivo6[33] = (CheckBox) findViewById(R.id.checkbox_p33_opt06);
+        checkBoxesMotivo6[34] = (CheckBox) findViewById(R.id.checkbox_p34_opt06);
+        checkBoxesMotivo6[35] = (CheckBox) findViewById(R.id.checkbox_p35_opt06);
+        checkBoxesMotivo6[36] = (CheckBox) findViewById(R.id.checkbox_p36_opt06);
+        checkBoxesMotivo6[37] = (CheckBox) findViewById(R.id.checkbox_p37_opt06);
+        checkBoxesMotivo6[38] = (CheckBox) findViewById(R.id.checkbox_p38_opt06);
+        checkBoxesMotivo6[39] = (CheckBox) findViewById(R.id.checkbox_p39_opt06);
     }
 
     public void radioButtonChecked(View view){
@@ -444,11 +633,11 @@ public class MedicionExhibicion extends AppCompatActivity {
         for(int i=0;i<NUMERO_PRODUCTOS;i++){
             if(radioButtonsExhibicionSi[i].isChecked()){
                 Log.d("checking",i+"_Si");
-                info+="100";
+                info+="1";
             }
             else if(radioButtonsExhibicionNo[i].isChecked()){
                 Log.d("checking",i+"_No");
-                info+="010";
+                info+="2";
                 //alerta para que cuando marque no o protisa, deba marcar al menos un motivo
                 if(!checkBoxesMotivo1[i].isChecked() && !checkBoxesMotivo2[i].isChecked() && !checkBoxesMotivo3[i].isChecked() &&
                         !checkBoxesMotivo4[i].isChecked() && !checkBoxesMotivo5[i].isChecked() && !checkBoxesMotivo6[i].isChecked()){
@@ -466,7 +655,7 @@ public class MedicionExhibicion extends AppCompatActivity {
             }
             else if(radioButtonsExhibicionProtisa[i].isChecked()){
                 Log.d("checking",i+"_Protisa");
-                info+="001";
+                info+="3";
                 if(!checkBoxesMotivo1[i].isChecked() && !checkBoxesMotivo2[i].isChecked() && !checkBoxesMotivo3[i].isChecked() &&
                         !checkBoxesMotivo4[i].isChecked() && !checkBoxesMotivo5[i].isChecked() && !checkBoxesMotivo6[i].isChecked()){
                     AlertDialog.Builder message = new AlertDialog.Builder(this);

@@ -13,29 +13,109 @@ import java.util.Scanner;
  * Created by root on 21/07/16.
  */
 public class Cliente {
-    String codigo;
-    String nombre;
+    /*String codigo;//0
+    String nombre;//
     String direccion;
     String giro;
     String mercado;
     String ciudad;
     String representante;
     String dni;
+    String productosExhigidos;*/
+
+    public static final int INDEX_DISTRIBUIDOR01=0;
+    public static final int INDEX_DISTRIBUIDOR02=1;
+    public static final int INDEX_DISTRIBUIDOR03=2;
+    public static final int INDEX_DISTRIBUIDOR04=3;
+    public static final int INDEX_DISTRIBUIDOR05=4;
+    public static final int INDEX_DISTRIBUIDOR06=5;
+
+    public static final int INDEX_SETIEMBRE=1;
+    public static final int INDEX_OCTUBRE=2;
+    public static final int INDEX_NOVIEMBRE=3;
+    public static final int INDEX_DICIEMBRE=4;
+    public static final int INDEX_ENERO=5;
+
+    public static final int INDEX_NOMBRE01=0;
+    public static final int INDEX_NOMBRE02=1;
+    public static final int INDEX_NOMBRE03=2;
+    public static final int INDEX_NOMBRE04=3;
+    public static final int INDEX_NOMBRE05=4;
+    public static final int INDEX_NOMBRE06=5;
+    public static final int INDEX_NOMBRETOTAL=6;
+
+    String codigo;
+    String supervisor;
+    String gestor;
+    String ciudad;
+    String distrito;
+    String nombre;
+    String representante;
+    String dni;
+    String direccion;
+    String mercado;
+    String giro;
     String productosExhigidos;
+    String comodinesTotales;
+    String comodinesUsados;
+    String comodinesRestantes;
+
+    String distribuidora01;
+    String distribuidora02;
+    String distribuidora03;
+    String distribuidora04;
+    String distribuidora05;
+    String distribuidora06;
+
+    String nombreCompra01;
+    String nombreCompra02;
+    String nombreCompra03;
+    String nombreCompra04;
+    String nombreCompra05;
+    String nombreCompra06;
+
+
+    String[][][] infoCompras;
+
+    String premioSetiembre;
+    String premioOctubre;
+    String premioNoviembre;
+    String premioDiciembre;
+    String premioEnero;
 
     public Cliente(String codigo, Context context){
         String db[] = context.getResources().getStringArray(R.array.dbclientes);
-        for(int i =0; i<db.length; i+=11){
+        for(int i =0; i<db.length; i+=27){
             if(codigo.equalsIgnoreCase(db[i])){
                 this.codigo = codigo;
-                this.nombre = db[i+4];
-                this.direccion = db[i+7];
-                this.giro = db[i+9];
-                this.mercado = db[i+8];
-                this.ciudad = db[i+3];
-                this.representante = db[i+5];
-                this.dni = db[i+6];
-                this.productosExhigidos = db[i+10];
+                this.supervisor=db[i+1];
+                this.gestor=db[i+2];
+                this.ciudad=db[i+3];
+                this.distrito=db[i+4];
+                this.nombre = db[i+5];
+                this.representante = db[i+6];
+                this.dni = db[i+7];
+                this.direccion = db[i+8];
+                this.mercado = db[i+9];
+                this.giro = db[i+10];
+                this.productosExhigidos = db[i+11];
+                this.comodinesTotales = db[i+12];
+                this.comodinesUsados = db[i+13];
+                this.comodinesRestantes = db[i+14];
+                this.distribuidora01 = db[i+15];
+                this.distribuidora02 = db[i+16];
+                this.distribuidora03 = db[i+17];
+                this.distribuidora04 = db[i+18];
+                this.distribuidora05 = db[i+19];
+                this.distribuidora06 = db[i+20];
+
+                this.nombreCompra01 = db[i+21];
+                this.nombreCompra02 = db[i+22];
+                this.nombreCompra03 = db[i+23];
+                this.nombreCompra04 = db[i+24];
+                this.nombreCompra05 = db[i+25];
+                this.nombreCompra06 = db[i+26];
+
             }
         }
     }
@@ -220,5 +300,45 @@ public class Cliente {
             }
         }
         return res;
+    }
+
+    String getPremio(int mes, Context context){
+        String[] dbpremios = context.getResources().getStringArray(R.array.dbpremio);
+        for(int i=0; i<dbpremios.length; i+=6){
+            if(dbpremios[i].equalsIgnoreCase(codigo)) return dbpremios[i+mes];
+        }
+        return "Not found";
+    }
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "codigo='" + codigo + '\'' +
+                ", supervisor='" + supervisor + '\'' +
+                ", gestor='" + gestor + '\'' +
+                ", ciudad='" + ciudad + '\'' +
+                ", distrito='" + distrito + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", representante='" + representante + '\'' +
+                ", dni='" + dni + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", mercado='" + mercado + '\'' +
+                ", giro='" + giro + '\'' +
+                ", productosExhigidos='" + productosExhigidos + '\'' +
+                ", comodinesTotales='" + comodinesTotales + '\'' +
+                ", comodinesUsados='" + comodinesUsados + '\'' +
+                ", comodinesRestantes='" + comodinesRestantes + '\'' +
+                ", distribuidora01='" + distribuidora01 + '\'' +
+                ", distribuidora02='" + distribuidora02 + '\'' +
+                ", distribuidora03='" + distribuidora03 + '\'' +
+                ", distribuidora04='" + distribuidora04 + '\'' +
+                ", distribuidora05='" + distribuidora05 + '\'' +
+                ", distribuidora06='" + distribuidora06 + '\'' +
+                ", nombreCompra01='" + nombreCompra01 + '\'' +
+                ", nombreCompra02='" + nombreCompra02 + '\'' +
+                ", nombreCompra03='" + nombreCompra03 + '\'' +
+                ", nombreCompra04='" + nombreCompra04 + '\'' +
+                ", nombreCompra05='" + nombreCompra05 + '\'' +
+                ", nombreCompra06='" + nombreCompra06 + '\'' +
+                '}';
     }
 }

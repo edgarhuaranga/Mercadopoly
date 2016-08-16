@@ -1,8 +1,10 @@
 package com.triunfo.mercadopoly;
 
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -165,5 +167,6 @@ public class ExhibicionMesFragment extends Fragment {
         //TODO  OBTENER el logro del mes(solo a fin de mes)
         return view;
     }
+
 
 }

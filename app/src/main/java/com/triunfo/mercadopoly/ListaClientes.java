@@ -37,14 +37,18 @@ public class ListaClientes extends AppCompatActivity {
     private List<Cliente> createItemList(String user, String rol) {
         List<Cliente> a = new ArrayList<>();
         String[] db = getResources().getStringArray(R.array.dbclientes);
-        for(int i=0; i<db.length; i+=11){
+        for(int i=0; i<db.length; i+=27){
+
             if(rol.equalsIgnoreCase("agente") && user.equalsIgnoreCase(db[i+2])){
                 a.add(new Cliente(db[i],getApplicationContext()));
+                Log.d("ClienteAge", (new Cliente(db[i],getApplicationContext())).toString());
             }
             if(rol.equalsIgnoreCase("supervisor") && user.equalsIgnoreCase(db[i+1])){
                 a.add(new Cliente(db[i],getApplicationContext()));
+                Log.d("ClienteSup", (new Cliente(db[i],getApplicationContext())).toString());
             }
         }
+        Log.d("tamanio",a.size()+"//");
         return a;
     }
 }

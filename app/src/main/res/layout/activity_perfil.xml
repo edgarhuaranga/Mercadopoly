@@ -229,7 +229,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Semana01\nDel 01 al 06 de agosto"
+                    android:text="Semana02\nDel 01 al 06 de agosto"
                     style="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu"/>
             </LinearLayout>
             <android.support.v4.widget.Space
@@ -298,42 +298,6 @@
                             android:layout_centerInParent="true"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Agosto"/>
-                    </RelativeLayout>
-                    <RelativeLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1">
-                        <TextView
-                            android:layout_centerInParent="true"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Sí"/>
-                    </RelativeLayout>
-                    <RelativeLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1">
-                        <TextView
-                            android:layout_centerInParent="true"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="S/100 en vales"/>
-                    </RelativeLayout>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-                    <RelativeLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1">
-                        <TextView
-                            android:layout_centerInParent="true"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:text="Setiembre"/>
                     </RelativeLayout>
                     <RelativeLayout
@@ -341,6 +305,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1">
                         <TextView
+                            android:id="@+id/textview_status_premio_setiembre"
                             android:layout_centerInParent="true"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -351,6 +316,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1">
                         <TextView
+                            android:id="@+id/textview_premio_setiembre"
                             android:layout_centerInParent="true"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -377,7 +343,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1">
                         <TextView
-                            android:background="@android:color/black"
+                            android:id="@+id/textview_status_premio_octubre"
                             android:layout_centerInParent="true"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -388,7 +354,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1">
                         <TextView
-                            android:background="@android:color/black"
+                            android:id="@+id/textview_premio_octubre"
                             android:layout_centerInParent="true"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -415,7 +381,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1">
                         <TextView
-                            android:background="@android:color/black"
+                            android:id="@+id/textview_status_premio_noviembre"
                             android:layout_centerInParent="true"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -426,7 +392,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1">
                         <TextView
-                            android:background="@android:color/black"
+                            android:id="@+id/textview_premio_noviembre"
                             android:layout_centerInParent="true"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -453,7 +419,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1">
                         <TextView
-                            android:background="@android:color/black"
+                            android:id="@+id/textview_status_premio_diciembre"
                             android:layout_centerInParent="true"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -464,7 +430,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1">
                         <TextView
-                            android:background="@android:color/black"
+                            android:id="@+id/textview_premio_diciembre"
                             android:layout_centerInParent="true"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -491,7 +457,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1">
                         <TextView
-                            android:background="@android:color/black"
+                            android:id="@+id/textview_status_premio_enero"
                             android:layout_centerInParent="true"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -502,7 +468,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1">
                         <TextView
-                            android:background="@android:color/black"
+                            android:id="@+id/textview_premio_enero"
                             android:layout_centerInParent="true"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"

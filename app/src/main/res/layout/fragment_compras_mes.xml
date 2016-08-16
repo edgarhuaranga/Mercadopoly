@@ -34,6 +34,7 @@
                     android:layout_height="40dp"
                     android:background="@drawable/cell_shape">
                     <TextView
+                        android:id="@+id/textview_distribuidor01"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
@@ -47,6 +48,7 @@
                     android:layout_height="40dp"
                     android:background="@drawable/cell_shape">
                     <TextView
+                        android:id="@+id/textview_distribuidor02"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
@@ -60,6 +62,7 @@
                     android:layout_height="40dp"
                     android:background="@drawable/cell_shape">
                     <TextView
+                        android:id="@+id/textview_distribuidor03"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
@@ -73,6 +76,7 @@
                     android:layout_height="40dp"
                     android:background="@drawable/cell_shape">
                     <TextView
+                        android:id="@+id/textview_distribuidor04"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
@@ -86,6 +90,7 @@
                     android:layout_height="40dp"
                     android:background="@drawable/cell_shape">
                     <TextView
+                        android:id="@+id/textview_distribuidor05"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
@@ -99,6 +104,7 @@
                     android:layout_height="40dp"
                     android:background="@drawable/cell_shape">
                     <TextView
+                        android:id="@+id/textview_distribuidor06"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
@@ -118,7 +124,7 @@
                         android:padding="5dp"
                         android:gravity="center"
                         style="@style/Base.TextAppearance.AppCompat.Small"
-                        android:text="Distribuidor 07"/>
+                        android:text="-"/>
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_width="120dp"
@@ -131,7 +137,7 @@
                         android:padding="5dp"
                         android:gravity="center"
                         style="@style/Base.TextAppearance.AppCompat.Small"
-                        android:text="Distribuidor 08"/>
+                        android:text="-"/>
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_width="120dp"
@@ -144,7 +150,7 @@
                         android:padding="5dp"
                         android:gravity="center"
                         style="@style/Base.TextAppearance.AppCompat.Small"
-                        android:text="Distribuidor 09"/>
+                        android:text="-"/>
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_width="120dp"
@@ -157,7 +163,7 @@
                         android:padding="5dp"
                         android:gravity="center"
                         style="@style/Base.TextAppearance.AppCompat.Small"
-                        android:text="Distribuidor 10"/>
+                        android:text="-"/>
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_width="120dp"
@@ -203,6 +209,7 @@
                             android:layout_height="50dp"
                             android:background="@drawable/cell_shape">
                             <TextView
+                                android:id="@+id/textview_nombre01"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
@@ -216,6 +223,7 @@
                             android:layout_height="50dp"
                             android:background="@drawable/cell_shape">
                             <TextView
+                                android:id="@+id/textview_nombre02"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
@@ -229,6 +237,7 @@
                             android:layout_height="50dp"
                             android:background="@drawable/cell_shape">
                             <TextView
+                                android:id="@+id/textview_nombre03"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
@@ -242,6 +251,7 @@
                             android:layout_height="50dp"
                             android:background="@drawable/cell_shape">
                             <TextView
+                                android:id="@+id/textview_nombre04"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
@@ -255,6 +265,7 @@
                             android:layout_height="50dp"
                             android:background="@drawable/cell_shape">
                             <TextView
+                                android:id="@+id/textview_nombre05"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
@@ -263,89 +274,19 @@
                                 style="@style/Base.TextAppearance.AppCompat.Subhead"
                                 android:text="Nombre 05"/>
                         </RelativeLayout>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
                         <RelativeLayout
                             android:layout_width="120dp"
-                            android:layout_height="40dp"
+                            android:layout_height="50dp"
                             android:background="@drawable/cell_shape">
                             <TextView
+                                android:id="@+id/textview_nombre06"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
                                 android:padding="5dp"
                                 android:gravity="center"
-                                style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/600.00"/>
-                        </RelativeLayout>
-                        <RelativeLayout
-                            android:layout_width="120dp"
-                            android:layout_height="40dp"
-                            android:background="@drawable/cell_shape">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_centerInParent="true"
-                                android:padding="5dp"
-                                android:gravity="center"
-                                style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
-                        </RelativeLayout>
-                        <RelativeLayout
-                            android:layout_width="120dp"
-                            android:layout_height="40dp"
-                            android:background="@drawable/cell_shape">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_centerInParent="true"
-                                android:padding="5dp"
-                                android:gravity="center"
-                                style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/200.00"/>
-                        </RelativeLayout>
-                        <RelativeLayout
-                            android:layout_width="120dp"
-                            android:layout_height="40dp"
-                            android:background="@drawable/cell_shape">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_centerInParent="true"
-                                android:padding="5dp"
-                                android:gravity="center"
-                                style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
-                        </RelativeLayout>
-                        <RelativeLayout
-                            android:layout_width="120dp"
-                            android:layout_height="40dp"
-                            android:background="@drawable/cell_shape">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_centerInParent="true"
-                                android:padding="5dp"
-                                android:gravity="center"
-                                style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
-                        </RelativeLayout>
-                        <RelativeLayout
-                            android:layout_width="120dp"
-                            android:layout_height="40dp"
-                            android:background="@drawable/cell_shape">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_centerInParent="true"
-                                android:padding="5dp"
-                                android:gravity="center"
-                                style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                                android:text="Nombre 06"/>
                         </RelativeLayout>
                     </LinearLayout>
                     <LinearLayout
@@ -364,7 +305,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/600.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -377,7 +318,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -390,7 +331,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/200.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -403,7 +344,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -416,7 +357,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -429,7 +370,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
                         </RelativeLayout>
                     </LinearLayout>
                     <LinearLayout
@@ -448,7 +402,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/600.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -461,7 +415,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -474,7 +428,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/200.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -487,7 +441,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -500,7 +454,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -513,7 +467,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
                         </RelativeLayout>
                     </LinearLayout>
                     <LinearLayout
@@ -532,7 +499,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/600.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -545,7 +512,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -558,7 +525,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/200.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -571,7 +538,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -584,7 +551,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -597,7 +564,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
                         </RelativeLayout>
                     </LinearLayout>
                     <LinearLayout
@@ -616,7 +596,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/600.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -629,7 +609,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -642,7 +622,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/200.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -655,7 +635,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -668,7 +648,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -681,7 +661,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
                         </RelativeLayout>
                     </LinearLayout>
                     <LinearLayout
@@ -700,7 +693,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/600.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -713,7 +706,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -726,7 +719,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/200.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -739,7 +732,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -752,7 +745,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -765,7 +758,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
                         </RelativeLayout>
                     </LinearLayout>
                     <LinearLayout
@@ -784,7 +790,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/600.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -797,7 +803,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -810,7 +816,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/200.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -823,7 +829,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -836,7 +842,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -849,7 +855,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
                         </RelativeLayout>
                     </LinearLayout>
                     <LinearLayout
@@ -868,7 +887,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/600.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -881,7 +900,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -894,7 +913,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/200.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -907,7 +926,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -920,7 +939,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -933,7 +952,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
                         </RelativeLayout>
                     </LinearLayout>
                     <LinearLayout
@@ -952,7 +984,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/600.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -965,7 +997,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -978,7 +1010,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/200.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -991,7 +1023,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -1004,7 +1036,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -1017,7 +1049,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
                         </RelativeLayout>
                     </LinearLayout>
                     <LinearLayout
@@ -1036,7 +1081,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/600.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -1049,7 +1094,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -1062,7 +1107,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/200.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -1075,7 +1120,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -1088,7 +1133,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -1101,7 +1146,20 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/100.00"/>
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
                         </RelativeLayout>
                     </LinearLayout>
                     <LinearLayout
@@ -1120,7 +1178,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/6000.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -1133,7 +1191,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/1000.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -1146,7 +1204,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/2000.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -1159,7 +1217,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/1000.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -1172,7 +1230,7 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/1000.00"/>
+                                android:text="-"/>
                         </RelativeLayout>
                         <RelativeLayout
                             android:layout_width="120dp"
@@ -1185,9 +1243,121 @@
                                 android:padding="5dp"
                                 android:gravity="center"
                                 style="@style/Base.TextAppearance.AppCompat.Small"
-                                android:text="S/1000.00"/>
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
                         </RelativeLayout>
                     </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/cell_shape">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                style="@style/Base.TextAppearance.AppCompat.Small"
+                                android:text="-"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
                 </LinearLayout>
             </HorizontalScrollView>
         </LinearLayout>

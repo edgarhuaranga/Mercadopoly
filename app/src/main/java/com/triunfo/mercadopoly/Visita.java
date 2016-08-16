@@ -80,6 +80,9 @@ public class Visita extends AppCompatActivity {
         if(!tienefotos()){
 
         }
+        if(tienevisita() && tienecompetencia() && tienefotos()){
+            finish();
+        }
     }
 
     public boolean tienevisita(){
@@ -125,7 +128,7 @@ public class Visita extends AppCompatActivity {
                 }
             }
         }
-        if(fotosvalidas<5){
+        if(fotosvalidas<10){
             AlertDialog.Builder mensaje = new AlertDialog.Builder(this);
             mensaje.setTitle("Mensaje")
                     .setMessage("Debes tomar al menos 5 fotos y poner sus comentarios respectivos, solo tienes "+fotosvalidas+" fotos validas")

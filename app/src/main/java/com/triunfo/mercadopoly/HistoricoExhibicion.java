@@ -1,12 +1,15 @@
 package com.triunfo.mercadopoly;
 
+import android.content.DialogInterface;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -71,5 +74,22 @@ public class HistoricoExhibicion extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             return mFragmentTitleList.get(position);
         }
+    }
+
+    public void mostrarProductosFaltantes(View view){
+        AlertDialog.Builder mensaje = new AlertDialog.Builder(this);
+        mensaje.setTitle("Productos faltantes");
+        mensaje.setMessage("Babysec Premium (morado) \n" +
+                "Babysec Ultra (celeste)\n" +
+                "Babysec Cuidado Total (blanco)\n" +
+                "Toalla Húmeda Premium (Babysec)\n" +
+                "Toalla Húmeda Ultra  (Babysec)\n")
+                .setPositiveButton("Entendido", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+        mensaje.create().show();
     }
 }

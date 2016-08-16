@@ -369,6 +369,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -462,6 +463,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -555,6 +557,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -648,6 +651,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -740,6 +744,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -1018,6 +1023,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -1111,6 +1117,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -1204,6 +1211,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -1297,6 +1305,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -1590,6 +1599,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -1683,6 +1693,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -1776,6 +1787,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -1869,6 +1881,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -2147,6 +2160,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -2240,6 +2254,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -2333,6 +2348,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -2426,6 +2442,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -2718,6 +2735,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -2811,6 +2829,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -2904,6 +2923,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -2997,6 +3017,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -3090,6 +3111,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -3368,6 +3390,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -3461,6 +3484,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -3554,6 +3578,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
@@ -3647,6 +3672,7 @@
                         android:padding="4dp">
                         <TextView
                             style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:onClick="mostrarProductosFaltantes"
                             android:layout_centerInParent="true"
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"

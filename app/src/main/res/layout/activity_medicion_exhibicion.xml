@@ -59,180 +59,279 @@
                 </RelativeLayout>
 
                 <ImageView
+                    android:id="@+id/ic_produc_00"
+                    android:padding="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/cell_shape"/>
+                <ImageView
+                    android:id="@+id/ic_produc_01"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_02"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_03"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_04"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_05"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_06"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_07"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_08"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_09"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_10"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_11"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_12"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_13"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_14"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_15"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_16"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_17"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_18"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_19"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_20"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_21"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_22"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_23"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_24"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_25"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_26"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_27"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_28"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_29"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:background="@drawable/cell_shape"
                     android:src="@drawable/ic_storage_black_24dp"/>
                 <ImageView
+                    android:id="@+id/ic_produc_30"
+                    android:padding="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/cell_shape"
+                    android:src="@drawable/ic_storage_black_24dp"/>
+                <ImageView
+                    android:id="@+id/ic_produc_31"
+                    android:padding="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/cell_shape"
+                    android:src="@drawable/ic_storage_black_24dp"/>
+                <ImageView
+                    android:id="@+id/ic_produc_32"
+                    android:padding="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/cell_shape"
+                    android:src="@drawable/ic_storage_black_24dp"/>
+                <ImageView
+                    android:id="@+id/ic_produc_33"
+                    android:padding="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/cell_shape"
+                    android:src="@drawable/ic_storage_black_24dp"/>
+                <ImageView
+                    android:id="@+id/ic_produc_34"
+                    android:padding="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/cell_shape"
+                    android:src="@drawable/ic_storage_black_24dp"/>
+                <ImageView
+                    android:id="@+id/ic_produc_35"
+                    android:padding="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/cell_shape"
+                    android:src="@drawable/ic_storage_black_24dp"/>
+                <ImageView
+                    android:id="@+id/ic_produc_36"
+                    android:padding="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/cell_shape"
+                    android:src="@drawable/ic_storage_black_24dp"/>
+                <ImageView
+                    android:id="@+id/ic_produc_37"
+                    android:padding="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/cell_shape"
+                    android:src="@drawable/ic_storage_black_24dp"/>
+                <ImageView
+                    android:id="@+id/ic_produc_38"
+                    android:padding="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/cell_shape"
+                    android:src="@drawable/ic_storage_black_24dp"/>
+                <ImageView
+                    android:id="@+id/ic_produc_39"
                     android:padding="5dp"
                     android:layout_width="100dp"
                     android:layout_height="70dp"
@@ -426,7 +525,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Kleenex Supreme"/>
+                            android:text="Ladysoft Normal con alas (verde) "/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -545,7 +644,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Suave Supreme Care"/>
+                            android:text="Ladysoft Ultra Delgada Malla"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -664,7 +763,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Suave Jumbo"/>
+                            android:text="Ladysoft Ultra Delgada Suave"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -783,7 +882,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Suave Rindemax"/>
+                            android:text="Ladysoft Delgada (rosada)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -902,7 +1001,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Suave Extra Doble Hoja"/>
+                            android:text="Ladysoft Natural (amarilla)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -1021,7 +1120,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Scott Duramax"/>
+                            android:text="Ladysoft Nocturna (negra)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -1140,7 +1239,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Scott Calorie Absorb Alto"/>
+                            android:text="Ladysoft Nocturna Doble Ala "/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -1259,7 +1358,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Scott Calorie Absorb 12.4"/>
+                            android:text="Babysec Recién Nacido (blanco) "/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -1378,7 +1477,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Scott Calorie Absorb 24.8mts"/>
+                            android:text="Babysec Premium (morado) "/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -1497,7 +1596,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Scott Multiusos 105/20 mts"/>
+                            android:text="Babysec Ultra (celeste)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -1616,7 +1715,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Scott Multiusos 50/10mts"/>
+                            android:text="Babysec Cuidado Total (blanco)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -1735,7 +1834,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Servilletas Scott Estilo 50 Hojas"/>
+                            android:text="Toalla Húmeda Premium (Babysec)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -1854,7 +1953,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Servilletas Scott Dobladas 100 hojas"/>
+                            android:text="Toalla Húmeda Ultra  (Babysec)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -1973,7 +2072,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Servilletas Scott Dobladas con diseño 80 hojas"/>
+                            android:text="Cotidian Plus"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -2092,7 +2191,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Servilletas Scott Premium Cortadas 220 y 1000 hojas"/>
+                            android:text="Cotidian Premium"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -2211,7 +2310,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Pañuelos Kleenex Dermoseda"/>
+                            android:text="Cotidian Clásico "/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -2330,7 +2429,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Pañuelos Kleenex MainLine"/>
+                            android:text="Cotidian Multiuso "/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -2449,7 +2548,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Kotex Evolution Dual Nocturna"/>
+                            android:text="Cotidian Pants"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -2568,7 +2667,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Kotex Teens"/>
+                            android:text="Ladysoft Normal pack x 42"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -2687,7 +2786,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Kotex Ultrafina"/>
+                            android:text="Servilletas Ultra Doblada en 4  (Elite)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -2806,7 +2905,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Kotex Normal"/>
+                            android:text="Servilletas Cortadas (verde)  (Elite)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -2925,7 +3024,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Celex"/>
+                            android:text="Servilletas Práctica en 2 (roja)  (Elite)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -3044,7 +3143,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Huggies Natural Care"/>
+                            android:text="Servilletas Doblada en 4 diseño (Elite)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -3163,7 +3262,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Huggies UpGo"/>
+                            android:text="Servilletas Doblada en 4 (celeste)  (Elite)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -3282,7 +3381,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Huggies Recien Nacido"/>
+                            android:text="Dispensador x 27 unidades aloe vera  / compactos (Elite)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -3401,7 +3500,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Huggies Active Sec"/>
+                            android:text="Dispensador x 27 unidades mentholado / compactos (Elite)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -3520,7 +3619,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Papel Higiénico Paracas UHx2"/>
+                            android:text="Papel Toalla Ultra (Elite)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -3639,7 +3738,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Papel Higiénico Paracas UHx1"/>
+                            android:text="Papel Toalla Ultra Megarollo (Elite)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -3758,7 +3857,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Papel Toalla Paracas Rollito"/>
+                            android:text="Papel Toalla Clásico Rojo (Elite)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -3877,7 +3976,7 @@
                             android:layout_width="180dp"
                             android:layout_height="70dp"
                             android:background="@drawable/cell_shape"
-                            android:text="Papel Toalla Paracas Rollazo"/>
+                            android:text="Papel Toalla Megarollo Clásico (Elite)"/>
                         <RadioGroup
                             android:layout_width="260dp"
                             android:layout_height="70dp"
@@ -3978,6 +4077,1196 @@
                                 android:background="@drawable/cell_shape">
                                 <CheckBox
                                     android:id="@+id/checkbox_p29_opt06"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/textview_p30"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="180dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Papel Toalla Megarrollo Celeste (Elite)"/>
+                        <RadioGroup
+                            android:layout_width="260dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RadioButton
+                                android:id="@+id/radiobutton_p30_si"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Sí"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p30_no"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="No"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p30_protisa"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Protisa"/>
+                        </RadioGroup>
+                        <LinearLayout
+                            android:layout_width="600dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p30_opt01"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p30_opt02"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p30_opt03"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p30_opt04"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p30_opt05"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p30_opt06"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/textview_p31"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="180dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Pañuelos Faciales (Elite)"/>
+                        <RadioGroup
+                            android:layout_width="260dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RadioButton
+                                android:id="@+id/radiobutton_p31_si"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Sí"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p31_no"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="No"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p31_protisa"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Protisa"/>
+                        </RadioGroup>
+                        <LinearLayout
+                            android:layout_width="600dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p31_opt01"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p31_opt02"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p31_opt03"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p31_opt04"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p31_opt05"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p31_opt06"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/textview_p32"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="180dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Papel Higiénico Ultra Doble Hoja (Morado) (Elite)"/>
+                        <RadioGroup
+                            android:layout_width="260dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RadioButton
+                                android:id="@+id/radiobutton_p32_si"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Sí"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p32_no"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="No"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p32_protisa"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Protisa"/>
+                        </RadioGroup>
+                        <LinearLayout
+                            android:layout_width="600dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p32_opt01"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p32_opt02"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p32_opt03"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p32_opt04"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p32_opt05"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p32_opt06"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/textview_p33"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="180dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Papel Higiénico Doble Hoja (Celeste) (Elite)"/>
+                        <RadioGroup
+                            android:layout_width="260dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RadioButton
+                                android:id="@+id/radiobutton_p33_si"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Sí"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p33_no"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="No"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p33_protisa"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Protisa"/>
+                        </RadioGroup>
+                        <LinearLayout
+                            android:layout_width="600dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p33_opt01"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p33_opt02"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p33_opt03"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p33_opt04"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p33_opt05"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p33_opt06"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/textview_p34"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="180dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Papel Higiénico Dúo Doble Hoja (Elite)"/>
+                        <RadioGroup
+                            android:layout_width="260dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RadioButton
+                                android:id="@+id/radiobutton_p34_si"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Sí"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p34_no"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="No"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p34_protisa"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Protisa"/>
+                        </RadioGroup>
+                        <LinearLayout
+                            android:layout_width="600dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p34_opt01"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p34_opt02"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p34_opt03"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p34_opt04"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p34_opt05"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p34_opt06"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/textview_p35"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="180dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Papel Higiénico Doble hoja Económico (Naranja) (Elite)"/>
+                        <RadioGroup
+                            android:layout_width="260dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RadioButton
+                                android:id="@+id/radiobutton_p35_si"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Sí"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p35_no"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="No"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p35_protisa"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Protisa"/>
+                        </RadioGroup>
+                        <LinearLayout
+                            android:layout_width="600dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p35_opt01"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p35_opt02"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p35_opt03"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p35_opt04"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p35_opt05"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p35_opt06"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/textview_p36"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="180dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Papel Higiénico Plus Doble Hoja (fucsia) (Elite)"/>
+                        <RadioGroup
+                            android:layout_width="260dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RadioButton
+                                android:id="@+id/radiobutton_p36_si"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Sí"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p36_no"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="No"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p36_protisa"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Protisa"/>
+                        </RadioGroup>
+                        <LinearLayout
+                            android:layout_width="600dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p36_opt01"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p36_opt02"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p36_opt03"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p36_opt04"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p36_opt05"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p36_opt06"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/textview_p37"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="180dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Papel Higiénico Noble Institucional"/>
+                        <RadioGroup
+                            android:layout_width="260dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RadioButton
+                                android:id="@+id/radiobutton_p37_si"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Sí"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p37_no"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="No"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p37_protisa"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Protisa"/>
+                        </RadioGroup>
+                        <LinearLayout
+                            android:layout_width="600dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p37_opt01"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p37_opt02"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p37_opt03"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p37_opt04"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p37_opt05"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p37_opt06"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/textview_p38"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="180dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Producto Mes 01"/>
+                        <RadioGroup
+                            android:layout_width="260dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RadioButton
+                                android:id="@+id/radiobutton_p38_si"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Sí"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p38_no"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="No"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p38_protisa"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Protisa"/>
+                        </RadioGroup>
+                        <LinearLayout
+                            android:layout_width="600dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p38_opt01"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p38_opt02"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p38_opt03"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p38_opt04"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p38_opt05"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p38_opt06"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/textview_p39"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="180dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Producto Mes 02"/>
+                        <RadioGroup
+                            android:layout_width="260dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RadioButton
+                                android:id="@+id/radiobutton_p39_si"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Sí"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p39_no"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="No"/>
+                            <RadioButton
+                                android:id="@+id/radiobutton_p39_protisa"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="radioButtonChecked"
+                                android:background="@drawable/cell_shape"
+                                android:text="Protisa"/>
+                        </RadioGroup>
+                        <LinearLayout
+                            android:layout_width="600dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p39_opt01"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p39_opt02"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p39_opt03"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p39_opt04"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p39_opt05"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cell_shape">
+                                <CheckBox
+                                    android:id="@+id/checkbox_p39_opt06"
                                     android:layout_centerInParent="true"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
