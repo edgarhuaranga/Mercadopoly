@@ -221,8 +221,8 @@ public class Cliente {
                 diaSemana="ErrorSemana";
                 break;
         }
-        s += Environment.getExternalStorageDirectory() + "/MercaTon/"+meses[mes]+"/"+"Semana"+semanacampania+"/"+diaSemana+"/"+codigo+"/";
-        //s += "/sdcard1" + "/MercadoTon/"+meses[mes]+"/"+"Semana"+semanacampania+"/"+diaSemana+"/"+codigo+"/";
+        //s += Environment.getExternalStorageDirectory() + "/MercaTon/"+meses[mes]+"/"+"Semana"+semanacampania+"/"+diaSemana+"/"+codigo+"/";
+        s += "/storage/sdcard1/MercaTon//"+meses[mes]+"/"+"Semana"+semanacampania+"/"+diaSemana+"/"+codigo+"/";
 
         return s;
     }
@@ -255,7 +255,9 @@ public class Cliente {
 
     ArrayList<String> getPathPhotos(int numsemana){
         ArrayList<String> res = new ArrayList<>();
-        File mercaton = new File(Environment.getExternalStorageDirectory()+"/MercaTon/");
+        //File mercaton = new File(Environment.getExternalStorageDirectory()+"/MercaTon/");
+        File mercaton = new File("/storage/sdcard1/MercaTon/");
+
         if(mercaton.exists()){
             File[] meses = mercaton.listFiles();
             for(int i=0; i<meses.length; i++){
